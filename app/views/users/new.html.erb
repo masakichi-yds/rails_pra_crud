@@ -1,0 +1,10 @@
+<%= form_for @user, url:"/users/create" do |f| %>
+  <h2>新規投稿</h2>
+  <%= f.label :name %>
+  <%= f.text_field :name%>
+  <%= f.label :age%>
+  <%= f.text_field :age%>
+  <input type="submit" value="投稿">
+<% end %>
+
+
